@@ -1,0 +1,1 @@
+[{"kind":2,"language":"mlsql","value":"-- !plugin app remove  \"byzer-yaml-visualization-3.0\";\n!plugin app add - \"byzer-yaml-visualization-3.0\";","outputs":[]}]
