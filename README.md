@@ -38,6 +38,11 @@ conda env create --file environment.yml
 
 这样可以得到一个名字叫做 `ray-1.12.0` 的环境。
 
+## 使用说明
+
+用户可以直接打开 ./src/visual.mlsqlnb cell by cell 操作。我们已经把数据提前防止在 data目录中，并且以 delta lake 形式提供。
+
+
 ## 项目文件说明
 
 ### ./src/plugin.mlsqlnb
