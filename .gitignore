@@ -1,5 +1,5 @@
 spark-warehouse
-data
+data/__instances__
 .vscode
 logs
 store
