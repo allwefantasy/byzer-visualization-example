@@ -1,6 +1,6 @@
 ## Byzer Visualization Example
 
-本项目主要演示 Byzer-yaml 的可视化能力。
+本项目主要演示 Byzer-yaml 的可视化能力。视频演示： https://m.bilibili.com/video/BV1ct4y1V7BC
 
 ## 安装 Byzer 桌面版
 
