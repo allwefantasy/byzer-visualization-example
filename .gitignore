@@ -3,3 +3,4 @@ data/__instances__
 .vscode
 logs
 store
+test.mlsqlnb
