@@ -77,10 +77,12 @@ dependencies:
     - cffi==1.15.0
     - charset-normalizer==2.0.12
     - click==8.1.2
+    - cloudpickle==2.1.0
     - colorful==0.5.4
     - convertdate==2.4.0
     - cryptography==37.0.3
     - cycler==0.11.0
+    - dask==2022.2.0
     - dill==0.3.4
     - distlib==0.3.4
     - fastapi==0.78.0
@@ -105,6 +107,7 @@ dependencies:
     - kaleido==0.2.1
     - kiwisolver==1.4.2
     - linkify-it-py==1.0.3
+    - locket==1.0.0
     - lunardate==0.2.0
     - markdown-it-py==2.1.0
     - markupsafe==2.1.1
@@ -123,6 +126,7 @@ dependencies:
     - pandarallel==1.6.1
     - pandas==1.4.2
     - paramiko==2.11.0
+    - partd==1.2.0
     - pillow==9.1.0
     - platformdirs==2.5.2
     - plotly==5.9.0
@@ -155,6 +159,7 @@ dependencies:
     - starlette==0.19.1
     - tenacity==8.0.1
     - threadpoolctl==3.1.0
+    - toolz==0.12.0
     - tqdm==4.64.0
     - typing-extensions==4.2.0
     - uc-micro-py==1.0.1
