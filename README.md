@@ -26,6 +26,9 @@
 
 选择已经下载的好的 VSIX 文件 然后安装。
 
+## 引擎配置
+
+拷贝 `.mlsql.config.example` 为 `.mlsql.config` 在里面用户可以配置内存，JDK等相关配置。
 
 ## Python 环境
 
