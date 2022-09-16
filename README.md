@@ -26,6 +26,20 @@
 
 选择已经下载的好的 VSIX 文件 然后安装。
 
+## 安装可视化插件
+
+打开任意一个 .mlsqlnb 文件，然后新建一个 cell 执行如下代码（需要联网）：
+
+```
+!plugin app add - "byzer-yaml-visualization-3.0"; 
+```
+
+卸载：
+
+```
+!plugin app remove  "byzer-yaml-visualization-3.0";
+```
+
 ## 引擎配置
 
 拷贝 `.mlsql.config.example` 为 `.mlsql.config` 在里面用户可以配置内存，JDK等相关配置。
