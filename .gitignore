@@ -4,3 +4,4 @@ data/__instances__
 logs
 store
 test.mlsqlnb
+.mlsql.config
