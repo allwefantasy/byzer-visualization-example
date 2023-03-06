@@ -5,7 +5,7 @@
 ## 安装 Byzer 桌面版
 
 
-[安装教程](https://zhuanlan.zhihu.com/p/603399058)
+[安装教程](https://zhuanlan.zhihu.com/p/603399058), 如果你以前安装过，青确保插件版本 >=0.9.0 。
 
 
 ## 安装可视化插件
