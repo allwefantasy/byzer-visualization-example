@@ -10,7 +10,8 @@
 
 ## 安装可视化插件
 
-打开任意一个 .mlsqlnb 文件，然后新建一个 cell 执行如下代码（需要联网）：
+打开项目 `./src/plugin.mlsqlnb`, 第一个Cell 会有类似如下的代码，执行即可安装插件。注意，需要保持网络畅通。
+
 
 ```
 !plugin app add - "byzer-yaml-visualization-3.3"; 
@@ -54,6 +55,7 @@ conda env create --file environment-win.yml
 
 
 ## 项目文件说明
+
 
 ### ./src/plugin.mlsqlnb
 
