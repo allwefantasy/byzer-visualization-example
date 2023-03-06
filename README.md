@@ -4,56 +4,49 @@
 
 ## 安装 Byzer 桌面版
 
-安装 Visual Studio Code。 [下载地址](https://code.visualstudio.com/) 然后安装他。
 
-> 注意： 请使用 [Light Color Theme](https://code.visualstudio.com/docs/getstarted/themes) 以获得更好的用户体验
+[安装教程](https://zhuanlan.zhihu.com/p/603399058)
 
-![](./example-data/v2-cb68ef1b333871371228bd23fa704dac_720w.jpg)
-
-
-接着你可以根据操作系统，下载合适的 Byzer 扩展：
-
-1. [Mac](https://download.byzer.org/byzer/2.3.2/byzer-vscode-extension-darwin-0.0.7.vsix)
-2. [Linux](https://download.byzer.org/byzer/2.3.2/byzer-vscode-extension-linux-0.0.7.vsix)
-3. [Windows](https://download.byzer.org/byzer/2.3.2/byzer-vscode-extension-win-0.0.7.vsix)
-
-
-> Warnning: Windows 暂时不支持 Byzer-python,所以无法使用该项目。
-
-点击 Visual Studio Code 中的 扩展(Extensions) 或者 View: Extensions command (Ctrl+Shift+X)
-
-![](./example-data/v2-c801c3123d1427d35661851eeec15f5c_720w.jpg)
-
-选择已经下载的好的 VSIX 文件 然后安装。
 
 ## 安装可视化插件
 
 打开任意一个 .mlsqlnb 文件，然后新建一个 cell 执行如下代码（需要联网）：
 
 ```
-!plugin app add - "byzer-yaml-visualization-3.0"; 
+!plugin app add - "byzer-yaml-visualization-3.3"; 
 ```
 
 卸载：
 
 ```
-!plugin app remove  "byzer-yaml-visualization-3.0";
+!plugin app remove  "byzer-yaml-visualization-3.3";
 ```
 
 ## 引擎配置
 
-拷贝 `.mlsql.config.example` 为 `.mlsql.config` 在里面用户可以配置内存，JDK等相关配置。
+拷贝 `.mlsql.config.example` 为 `.mlsql.config` 在里面用户可以配置内存。
 
 ## Python 环境
 
 Byzer-yaml 可视化依赖于 Byzer-python。 用户需要在本机安装 [Miniconda](https://docs.conda.io/en/latest/miniconda.html)。
-接着在本项目中执行如下指令：
+
+> 注意：你可能根据需要修改 enviroment-*.yml 文件中的 prefix 字段。
+
+Mac/Linux 还原Python虚拟环境：
 
 ```
-conda env create --file environment.yml
+conda env create --file environment-mac.yml
 ```
 
 这样可以得到一个名字叫做 `ray-1.12.0` 的环境。
+
+
+Windows 下还原 Python 虚拟环境：
+
+```
+conda env create --file environment-win.yml
+```
+我们可以得到一个名字叫 `dev` 的环境。
 
 ## 使用说明
 
